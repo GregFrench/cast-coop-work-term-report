@@ -9,7 +9,6 @@ const pageStyles = {
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
-  maxWidth: 320,
 }
 const headingAccentStyles = {
   color: "#663399",
@@ -129,15 +128,29 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <title>Cast Co-op 2021 Work Term Report</title>
+      
       <h1 style={headingStyles}>
-        Congratulations
+        Cast Co-op 2021 Work Term Report
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
         <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
       </h1>
+      <p>Introduction</p>
+
+      <p>Hi, I'm Greg. I'm a Bachelor of Computing co-op student at the University of Guelph currently studying computer science. Over the past Summer and Fall of 2021, I've been working as a co-op student at a social media startup called Cast. The following contains a brief overview of my experience.</p>
+
+      <p>About Cast</p>
+
+      <p>Goals</p>
+
+      <p>Job Description</p>
+
+      <p>Conclusions</p>
+
+      <p>Acknowledgments</p>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time.{" "}
