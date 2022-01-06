@@ -146,9 +146,11 @@ const IndexPage = () => {
 
       <p>Cast was a social media company founded in 2020 located in the heart of downtown Toronto. It was primarily a mobile application that ran on both Android and iOS. The app's main core concept was built around social voting that allowed people to share their opinions on various topics and have people vote on those topics anonymously. These topics could range anywhere from social issues to politics to sports and even dating. Whatever was on someone's mind, they could ask it and people around the world could vote on it. Since Cast was founded during the Covid-19 pandemic, the company was remote-first by default but had an office downtown Toronto where employees could meet, hang out, and discuss strategy. I ended up visiting the office twice. Once to meet with the engineering team to discuss preliminary plans for the development of Cast V2, a newer and sleeker version of the app, and another to meet with the entire team right before the official launch of V2 at the end of the summer. The company also held two early morning daily standups over Google Meet, one for the engineering team, and one for the marketing team. On top of that, there were also weekly one-on-one meetings with each member of the team, meaning that each person would meet with every other person on the team virtually at least one time per week. This allowed each team member to discuss in-depth details of what they were working on to keep everyone in the loop. Unfortunately, the company folded in November of 2021 due to budgetary reasons and concerns that the app was not growing as fast enough as the founders had hoped.</p>
 
-      <p>Goals</p>
-
       <p>Job Description</p>
+
+      <p>I was originally hired on with the company to do software QA. This would entail both manually testing the app as well as writing automated unit tests. The job quickly transitioned into more of a software engineering role as I took on more and more software-related tasks on top of the testing work I was doing at the time. This entailed working on the frontend mobile application using React Native, working on the backend using Node.js in conjunction with both a Postgresql database as well as Google Firestore.</p>
+
+      <p>Goals</p>
 
       <p>Conclusions</p>
 
