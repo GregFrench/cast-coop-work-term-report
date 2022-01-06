@@ -168,6 +168,8 @@ const IndexPage = () => {
 
       <p>Conclusions</p>
 
+      <p>Working at a Cast was a wonderful opportunity to work with great people and great technology. Throughout my co-op term, I’ve been able to grow tremendously, both as a person and as a software developer. This is one co-op term that I will remember for a long time.</p>
+
       <p>Acknowledgments</p>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
