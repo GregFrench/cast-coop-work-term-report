@@ -17,4 +17,5 @@ module.exports = {
       __key: "images",
     },
   ],
+  pathPrefix: "/cast-coop-work-term-report",
 };
