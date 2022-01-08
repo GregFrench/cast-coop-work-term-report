@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Helmet } from "react-helmet"
 import logo from "../images/cast-logo.jpg"
 import jestIcon from "../images/jest-icon.png"
 import reactIcon from "../images/react-icon.png"
@@ -8,11 +9,6 @@ import dsaIcon from "../images/dsa-icon.png"
 import cleanCodeIcon from "../images/clean-code-icon.png"
 
 // styles
-const contentStyles = {
-  margin: "auto",
-  width: "50%",
-}
-
 const pageStyles = {
   backgroundColor: "#eee",
   color: "#232129",
@@ -57,7 +53,11 @@ const goalStyles = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <div style={contentStyles}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Cast Co-op 2021 Work Term Report</title>
+      </Helmet>
+      <div id="content">
         <title>Cast Co-op 2021 Work Term Report</title>
         
         <h1 style={headingStyles}>Cast Co-op 2021 Work Term Report</h1>
@@ -76,7 +76,7 @@ const IndexPage = () => {
 
         <h2 style={h2Styles}>Job Description</h2>
 
-        <p>I was originally hired on with the company to do software QA. This would entail both manually testing the app as well as writing automated unit tests. The job quickly transitioned into more of a software engineering role as I took on more and more software-related tasks on top of the testing work I was doing at the time. This entailed working on the frontend mobile application using React Native, working on the backend using Node.js in conjunction with both a Postgresql database as well as Google Firestore.</p>
+        <p>I was originally hired on with the company to do software QA. This would entail both manually testing the app as well as writing automated unit tests. The job quickly transitioned into more of a software engineering role as I took on more and more software-related tasks on top of the testing work I was doing at the time. This entailed working on the frontend mobile application using React Native, working on the backend using Node.js in conjunction with both a Postgresql database as well as Google Firestore. Some of the projects I worked on at Cast include, but are not limited to, revamping user profiles for Cast V2, building out the re-cast feature for users to re-cast other peoples casts, building the expiring cast feature that enabled users to set a time on their casts when people are no longer allowed to vote, and building out admin dashboard tools for better reporting and analysis to improve user experience.</p>
 
         <h2 style={h2Styles}>Goals</h2>
 
@@ -96,7 +96,7 @@ const IndexPage = () => {
             <p><img src={reactIcon} style={goalImgStyles} alt="React Icon" /></p>
           </div>
           <div>
-          <p><strong>Achieve expertise in React -</strong> React is an incredibly valuable skill to know and since one of the core technologies used at Cast was React Native, I thought it would be worth my time to spend time digging deep into the core features of React to learn as much as possible about the technology. This would not only make me a valuable contributor to the engineering team at Cast but also any future company that I work with that uses React. Overall, I ended up seeing my React skills grow tremendously and were able to obtain a solid grasp of the core concepts. I now feel a lot more comfortable building out apps and features with it.</p>
+          <p><strong>Achieve expertise in React -</strong> React is an incredibly valuable skill to know and since one of the core technologies used at Cast was React Native, I thought it would be worth my time to spend time digging deep into the core features of React to learn as much as possible about the technology. This would not only make me a valuable contributor to the engineering team at Cast but also any future company that I work with that uses React. Overall, I ended up seeing my React skills grow tremendously and was able to obtain a solid grasp of the core concepts. I now feel a lot more comfortable building out apps and features with it.</p>
           </div>
         </div>
 
@@ -114,7 +114,7 @@ const IndexPage = () => {
             <p><img src={postgresIcon} style={goalImgStyles} alt="Postgres Icon" /></p>
           </div>
           <div>
-          <p><strong>Improve my SQL query skills -</strong> This goal was intended to improve my ability to write SQL queries, both in terms of my ability to write high-quality queries in one-shot, but also make them very performant in how they execute when interacting with the database. For example, I went from having limited knowledge of how “join” queries work, to being able to write pretty advanced join queries by the end of my term. This allowed me to take queries that were being split up into chunks, combine them into a single query using joins, thus reducing the latency of the HTTP requests utilizing those requests sometimes by an order of magnitude. I also learned a lot about how databases work under the hood to get a better understanding of what is going on when SQL queries are executed on a system.</p>
+          <p><strong>Improve my SQL query skills -</strong> This goal was intended to improve my ability to write SQL queries, both in terms of my ability to write high-quality queries in one-shot, but also make them very performant in how they execute when interacting with the database. For example, I went from having limited knowledge of how “join” queries work, to being able to write pretty advanced join queries by the end of my term. This allowed me to take queries that were being split up into chunks, combine them into a single query using joins, thus reducing the latency of the HTTP requests utilizing those requests, sometimes by an order of magnitude. I also learned a lot about how databases work under the hood to get a better understanding of what is going on when SQL queries are executed on a system.</p>
           </div>
         </div>
 
@@ -142,7 +142,7 @@ const IndexPage = () => {
 
         <h2 style={h2Styles}>Acknowledgments</h2>
 
-        <p>I would like to thank George Boutsalis, David Banwat, and Graydyn Young for originally hiring me on to the team and giving me the opportunity to work at Cast. I would like to thank Chance Squires for helping to make me a better front-end developer, especially when it comes to React Native.</p>
+        <p>I would like to thank George Boutsalis, David Banwat, and Graydyn Young for originally hiring me on to the team and giving me the opportunity to work at Cast. I would also like to thank Chance Squires for helping to make me a better front-end developer, especially when it comes to React and React Native.</p>
       </div>
     </main>
   )
